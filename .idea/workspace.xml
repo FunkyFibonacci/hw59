@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aabaa20d-67ee-42da-af5e-08f3d3f38241" name="Changes" comment="added country jf task 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/task2/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="aabaa20d-67ee-42da-af5e-08f3d3f38241" name="Changes" comment="added hadler for back, script for search" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712821993366</updated>
       <workItem from="1712821994902" duration="7311000" />
-      <workItem from="1712836015120" duration="958000" />
+      <workItem from="1712836015120" duration="1264000" />
     </task>
     <task id="LOCAL-00001" summary="added template for task1">
       <created>1712826695539</created>
@@ -90,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712835034613</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added hadler for back, script for search">
+      <created>1712837280396</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712837280396</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +117,8 @@
     <MESSAGE value="added styles" />
     <MESSAGE value="added index of task 2" />
     <MESSAGE value="added country jf task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="added country jf task 2" />
+    <MESSAGE value="added hadler for back, template for search" />
+    <MESSAGE value="added hadler for back, script for search" />
+    <option name="LAST_COMMIT_MESSAGE" value="added hadler for back, script for search" />
   </component>
 </project>
