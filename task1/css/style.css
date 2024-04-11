@@ -1,0 +1,28 @@
+
+.divOnTime {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    border-bottom-color: black;
+    box-shadow: 0 0 10px black;
+}
+.close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.close-btn:hover {
+    background-color: red;
+    color: white;
+}
