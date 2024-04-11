@@ -9,6 +9,7 @@
 <body>
 <div class="container">
     <h1 class="mt-5">Список стран мира</h1>
+    <input type="text" id="search-input" class="form-control mt-3" placeholder="Введите название страны">
     <ul id="country-list" class="list-group mt-3"></ul>
 </div>
 
@@ -22,6 +23,17 @@
                 $('#country-list').append('<li class="list-group-item"><a href="country.html?name=' + encodeURIComponent(country.name.common) + '">' + country.name.common + '</a></li>');
             });
         }
+    });
+    $('#search-input').on('input', function() {
+        var searchText = $(this).val().toLowerCase();
+        $('#country-list li').each(function() {
+            var countryName = $(this).text().toLowerCase();
+            if (countryName.includes(searchText)) {
+                $(this).show();
+            } else {
+                $(this).hide();
+            }
+        });
     });
 </script>
 </body>
